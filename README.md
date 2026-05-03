@@ -1,4 +1,5 @@
-# tda-index-tracking-replication# TDA-Based Sparse Index Tracking (Replication & Extension)
+# TDA-Based Sparse Index Tracking (Replication & Extension)
+
 
 ## Overview
 
