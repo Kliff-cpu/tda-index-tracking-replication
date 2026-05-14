@@ -98,8 +98,36 @@ tda-index-tracking-replication/
 ├── README.md
 └── LICENSE
 
-## Authors:
-- G Addai (225180738)
-- G.K Pule (222047683)
-- O.C Seitsang (221011692)
-- I.M Chirambwe (221005439)
+## Reproducing the Results
+1. Clone the repository
+git clone https://github.com/Kliff-cpu/tda-index-tracking-replication.git
+cd tda-index-tracking-replication
+2. Install required libraries
+pip install -r requirements.txt
+3. Run the notebook:
+Portfolio Final.ipynb
+
+## The notebook reproduces:
+
+Tables 1–14
+Growth-of-$1 plots
+Penalty correlation analysis
+Kupiec VaR backtesting
+Sensitivity analysis
+
+#### Main Libraries
+numpy
+pandas
+matplotlib
+cvxpy
+ripser
+persim
+gudhi
+yfinance
+scipy
+
+## Authors
+G Addai (225180738)
+G.K Pule (222047683)
+O.C Seitsang (221011692)
+I.M Chirambwe (221005439)
