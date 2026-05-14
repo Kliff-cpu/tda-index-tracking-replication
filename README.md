@@ -96,6 +96,8 @@ tda-index-tracking-replication/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
+
 
 ## Reproducing the Results
 1. Clone the repository
