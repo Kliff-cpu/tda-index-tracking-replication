@@ -8,17 +8,16 @@ This repository contains the full replication and extension of the paper:
 > Goel, A., Pasricha, P. and Kanniainen, J. (2025).  
 > *Risk Reduced Sparse Index Tracking Portfolio: A Topological Data Analysis Approach.*
 
-The project reproduces the Topological Data Analysis (TDA) sparse index tracking framework proposed by the original authors and introduces a novel economically interpretable extension based on CAPM beta and asset volatility. The empirical analysis is conducted using S\&P 500 data and follows a rolling-window out-of-sample backtesting framework across multiple market regimes. :contentReference[oaicite:0]{index=0}
-
+The project reproduces the Topological Data Analysis (TDA) sparse index tracking framework proposed by Goel  et al.(2025).It introduces a novel economically interpretable extension based on CAPM beta and asset volatility. The empirical analysis is conducted using S\&P 500 data and follows a rolling-window out-of-sample backtesting framework across multiple market regimes.
 The objective is to investigate whether traditional financial risk measures can provide competitive sparse index tracking performance when incorporated into the same weighted Elastic-Net optimisation structure as the TDA framework.
 
 ---
 
 ## Project Motivation
 
-Sparse index tracking remains an important problem in portfolio optimisation because fully replicating large indices such as the S\&P 500 is often impractical due to transaction costs, liquidity constraints, and portfolio management complexity. :contentReference[oaicite:1]{index=1}
+Sparse index tracking remains an important problem in portfolio optimisation because fully replicating large indices such as the S\&P 500 is often impractical due to transaction costs, liquidity constraints, and portfolio management complexity.
 
-Goel et al. (2025) addressed this problem using Topological Data Analysis, where persistence landscape norms derived from persistent homology are used as adaptive regularisation penalties within a weighted Elastic-Net framework. While the method achieved strong empirical tracking performance, the economic interpretation of the TDA penalties remained unclear. :contentReference[oaicite:2]{index=2}
+Goel et al. (2025) addressed this problem using Topological Data Analysis, where persistence landscape norms derived from persistent homology are used as adaptive regularisation penalties within a weighted Elastic-Net framework. While the method achieved strong empirical tracking performance, the economic interpretation of the TDA penalties remained unclear.
 
 This project therefore investigates whether economically interpretable measures such as:
 
@@ -59,7 +58,7 @@ The implementation follows the original rolling-window setup:
 - 42-day overlapping subseries
 - Persistent homology via Vietoris–Rips filtrations
 
-Persistence landscape norms are computed from both \(H_0\) and \(H_1\) homology dimensions and used as adaptive portfolio penalties. :contentReference[oaicite:3]{index=3}
+Persistence landscape norms are computed from both \(H_0\) and \(H_1\) homology dimensions and used as adaptive portfolio penalties.
 
 ---
 
@@ -86,7 +85,7 @@ where:
 - \(\sigma_i\) measures asset volatility,
 - \(\varepsilon\) is a small stabilisation constant.
 
-This creates a hybrid framework linking sparse index tracking with classical financial risk theory. :contentReference[oaicite:4]{index=4}
+This creates a hybrid framework linking sparse index tracking with classical financial risk theory.
 
 ---
 
@@ -108,7 +107,7 @@ The empirical results show that:
 - TDA models achieve the lowest tracking errors and strongest benchmark correlations,
 - The proposed BetaVol framework generates stronger annualised returns,
 - BetaVol achieves substantially lower turnover,
-- The economic models improve interpretability but accept higher downside risk and tracking deviation. :contentReference[oaicite:5]{index=5}
+- The economic models improve interpretability but accept higher downside risk and tracking deviation.
 
 The findings suggest that TDA captures structural information in financial return series that is not fully explained by beta or volatility alone.
 
@@ -153,7 +152,7 @@ The dataset is divided into two sub-periods:
 | Panel I | 11 October 1999 – 10 October 2018 |
 | Panel II | 1 January 2018 – 8 March 2023 |
 
-Only stocks with complete observations throughout each sub-period are retained. :contentReference[oaicite:6]{index=6}
+Only stocks with complete observations throughout each sub-period are retained.
 
 ---
 
