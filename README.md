@@ -43,8 +43,7 @@ These measures are incorporated into the same weighted Elastic-Net optimisation 
 
 ## Research Question
 
-Can CAPM beta and volatility replace TDA-based penalties while achieving comparable or improved:
-
+Can CAPM beta and volatility serve as economically interpretable alternative penalty measures to TDA-based penalties while achieving comparable or improved:
 - Tracking accuracy
 - Risk control
 - Portfolio sparsity
